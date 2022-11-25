@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>   
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+</style>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="list.html">Lista de Usuários 📃</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>usuário</h2>
+
+        <div class="div-erro">
+            Preencha todos os campos corretamente!
+        </div>
+
+        <div class="form" id="dados">
+            <input type="email" id="email" placeholder="Insira seu E-Mail">
+            <input type="password" id="senha" placeholder="Insira sua senha">
+            <br>
+            <br>
+            <a href="senha.html" id="pwrec"> Recuperar senha </a>
+            <br>
+            <br>
+            <button id="botao" type="button" onclick="addUsuario()">Entrar</button>
+            <br>
+            <br>
+            <br>  
+            <br>
+          
+            <div id="criar">
+                <a href="cadastro.html" id="btncad">Cadastrar-se</a>
+            </div>
+            <br>
+        </div>
+    </div>
+    
+    <footer>
+        <ul>
+            <li>SESI SENAI</li>
+            <li>CTAI</li>
+            <li>Florianópolis</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+body{
+    text-align: center;
+    margin: 0;
+    
+}
+
+header{
+    font-family: 'Staatliches', cursive;
+    background-color: #9ABBE6;
+    color: #304866;
+    padding: 2rem;
+}
+
+footer{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #9ABBE6;
+    color: #486C99;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer li{
+    list-style: none;
+}
+
+nav{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    background-color:#486C99;
+    padding: 1rem;
+    color: #9ABBE6;
+    margin-bottom: 2rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+li a{
+    color: #9ABBE6;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+li a:hover{
+    color: #486C99;
+    background-color: #9ABBE6;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+    border: 2px solid #9ABBE6;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.container h2{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #9ABBE6;
+    color:#304866;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+.container input{
+    font-family: 'Bebas Neue', cursive;
+    width: 62vw;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid #9ABBE6;
+
+}
+
+.container input:hover{
+    background-color: #FFEAC4;
+}
+
+#pwrec{
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 2rem;
+}
+
+.container button{
+    border-radius: 1rem;
+    background-color: #9ABBE6;
+    color: #304866;
+    transition: 0.2s;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+
+}
+
+.container button:hover{
+    background-color: #9ABBE6;
+    color: #486C99;
+
+}
+
+#btncad{
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 1rem;
+    background-color: #9ABBE6;
+    color: #304866;
+    transition: 0.2s;
+    text-align: center;
+    margin: 1rem;
+    width: 90%;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+#btncad button:hover{
+    background-color: #9ABBE6;
+    color: #486C99;
+}
+
+#botao{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+
+.list{
+    width: 100%;
+}
+
+.list table{
+    width: 100%;
+}
+
+.list table th{
+    background-color: #9ABBE6;
+    padding: 1rem;
+    color: #486C99;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+}
+
+.list table td{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2px;
+    border: 2px solid #9ABBE6;
+    border-radius: 5px;
+
+}
+
+.div-erro{
+    font-family: 'Bebas Neue', cursive;;
+    width: 70%;
+    border: 2px solid rgb(255, 0, 51);
+    background-color: rgb(248, 107, 107);
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem;
+    display: none;
+}

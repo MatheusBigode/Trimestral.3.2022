@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>   
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+</style>
+<body>
+    <header>
+        <h1>criar usuário</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>usuário</h2>
+
+        <div class="div-erro">
+            Preencha todos os campos corretamente!
+        </div>
+
+        <div class="form" id="dados">
+            <input type="nome" id="nome" placeholder="Insira seu nome">
+            <input type="sobrenome" id="sobrenome" placeholder="Insira seu sobrenome">
+            <input type="matricula" id="matricula" placeholder="Insira seu número de matrícula">
+            <input type="datanasc" id="datanasc" placeholder="Insira sua data de nascimento">
+            <input type="enderço" id="endereço" placeholder="Insira seu endereço">
+            <input type="série" id="série" placeholder="Insira sua série">
+            <button id="botao" type="button" onclick="addUsuario()">Cadastrar</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

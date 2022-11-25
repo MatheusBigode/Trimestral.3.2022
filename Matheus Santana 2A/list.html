@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+</style>
+<body onload="listUsuarios()">
+    <header>
+        <h1>Gerenciamento de Usuários</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Lista de Usuários</h2>
+        <div class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>E-mail </th>
+                        <th>Senha</th>
+                    </tr>
+                </thead>
+                <tbody id="table-linha">
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>SESI SENAI</li>
+            <li>CTAI</li>
+            <li>Florianópolis</li>
+            <li>SC-401, 3730 - Saco Grande, Florianópolis - SC</li>
+            <li>CEP 88032-005</li>
+        </ul>
+    </footer>
+    <script src="script.js">listUsuarios()</script>
+</body>
+</html>
